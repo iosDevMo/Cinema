@@ -1,0 +1,406 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CDA1F78B2A34A48600B74EED /* CinemaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA1F78A2A34A48600B74EED /* CinemaApp.swift */; };
+		CDA1F78D2A34A48600B74EED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA1F78C2A34A48600B74EED /* ContentView.swift */; };
+		CDA1F78F2A34A48700B74EED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDA1F78E2A34A48700B74EED /* Assets.xcassets */; };
+		CDA1F7922A34A48700B74EED /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDA1F7912A34A48700B74EED /* Preview Assets.xcassets */; };
+		CDA1F79C2A34AAB600B74EED /* movies.json in Resources */ = {isa = PBXBuildFile; fileRef = CDA1F7982A34AAB600B74EED /* movies.json */; };
+		CDA1F79D2A34AAB600B74EED /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = CDA1F7992A34AAB600B74EED /* locations.json */; };
+		CDA1F79E2A34AAB600B74EED /* trailers.json in Resources */ = {isa = PBXBuildFile; fileRef = CDA1F79A2A34AAB600B74EED /* trailers.json */; };
+		CDA1F79F2A34AAB600B74EED /* covers.json in Resources */ = {isa = PBXBuildFile; fileRef = CDA1F79B2A34AAB600B74EED /* covers.json */; };
+		CDA1F7A92A34AB0D00B74EED /* top-gun-maverick.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CDA1F7A12A34AB0A00B74EED /* top-gun-maverick.mp4 */; };
+		CDA1F7AA2A34AB0D00B74EED /* morbius.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CDA1F7A22A34AB0A00B74EED /* morbius.mp4 */; };
+		CDA1F7AB2A34AB0D00B74EED /* sonic-the-hedgehog.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CDA1F7A32A34AB0B00B74EED /* sonic-the-hedgehog.mp4 */; };
+		CDA1F7AC2A34AB0D00B74EED /* jurassic-world-dominion.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CDA1F7A42A34AB0B00B74EED /* jurassic-world-dominion.mp4 */; };
+		CDA1F7AD2A34AB0D00B74EED /* uncharted.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CDA1F7A52A34AB0C00B74EED /* uncharted.mp4 */; };
+		CDA1F7AE2A34AB0D00B74EED /* men-in-black.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CDA1F7A62A34AB0C00B74EED /* men-in-black.mp4 */; };
+		CDA1F7AF2A34AB0D00B74EED /* moonfall.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CDA1F7A72A34AB0D00B74EED /* moonfall.mp4 */; };
+		CDA1F7B02A34AB0D00B74EED /* minions-the-rise-of-gru.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CDA1F7A82A34AB0D00B74EED /* minions-the-rise-of-gru.mp4 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CDA1F7872A34A48600B74EED /* Cinema.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cinema.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDA1F78A2A34A48600B74EED /* CinemaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CinemaApp.swift; sourceTree = "<group>"; };
+		CDA1F78C2A34A48600B74EED /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CDA1F78E2A34A48700B74EED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CDA1F7912A34A48700B74EED /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CDA1F7982A34AAB600B74EED /* movies.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = movies.json; sourceTree = "<group>"; };
+		CDA1F7992A34AAB600B74EED /* locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = locations.json; sourceTree = "<group>"; };
+		CDA1F79A2A34AAB600B74EED /* trailers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = trailers.json; sourceTree = "<group>"; };
+		CDA1F79B2A34AAB600B74EED /* covers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = covers.json; sourceTree = "<group>"; };
+		CDA1F7A12A34AB0A00B74EED /* top-gun-maverick.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "top-gun-maverick.mp4"; sourceTree = "<group>"; };
+		CDA1F7A22A34AB0A00B74EED /* morbius.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = morbius.mp4; sourceTree = "<group>"; };
+		CDA1F7A32A34AB0B00B74EED /* sonic-the-hedgehog.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "sonic-the-hedgehog.mp4"; sourceTree = "<group>"; };
+		CDA1F7A42A34AB0B00B74EED /* jurassic-world-dominion.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "jurassic-world-dominion.mp4"; sourceTree = "<group>"; };
+		CDA1F7A52A34AB0C00B74EED /* uncharted.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = uncharted.mp4; sourceTree = "<group>"; };
+		CDA1F7A62A34AB0C00B74EED /* men-in-black.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "men-in-black.mp4"; sourceTree = "<group>"; };
+		CDA1F7A72A34AB0D00B74EED /* moonfall.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = moonfall.mp4; sourceTree = "<group>"; };
+		CDA1F7A82A34AB0D00B74EED /* minions-the-rise-of-gru.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "minions-the-rise-of-gru.mp4"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDA1F7842A34A48600B74EED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CDA1F77E2A34A48600B74EED = {
+			isa = PBXGroup;
+			children = (
+				CDA1F7892A34A48600B74EED /* Cinema */,
+				CDA1F7882A34A48600B74EED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CDA1F7882A34A48600B74EED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDA1F7872A34A48600B74EED /* Cinema.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDA1F7892A34A48600B74EED /* Cinema */ = {
+			isa = PBXGroup;
+			children = (
+				CDA1F7B12A34AB2400B74EED /* Videos */,
+				CDA1F7A02A34AACD00B74EED /* Data */,
+				CDA1F78A2A34A48600B74EED /* CinemaApp.swift */,
+				CDA1F78C2A34A48600B74EED /* ContentView.swift */,
+				CDA1F78E2A34A48700B74EED /* Assets.xcassets */,
+				CDA1F7902A34A48700B74EED /* Preview Content */,
+			);
+			path = Cinema;
+			sourceTree = "<group>";
+		};
+		CDA1F7902A34A48700B74EED /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CDA1F7912A34A48700B74EED /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CDA1F7A02A34AACD00B74EED /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				CDA1F79B2A34AAB600B74EED /* covers.json */,
+				CDA1F7992A34AAB600B74EED /* locations.json */,
+				CDA1F7982A34AAB600B74EED /* movies.json */,
+				CDA1F79A2A34AAB600B74EED /* trailers.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		CDA1F7B12A34AB2400B74EED /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+				CDA1F7A42A34AB0B00B74EED /* jurassic-world-dominion.mp4 */,
+				CDA1F7A62A34AB0C00B74EED /* men-in-black.mp4 */,
+				CDA1F7A82A34AB0D00B74EED /* minions-the-rise-of-gru.mp4 */,
+				CDA1F7A72A34AB0D00B74EED /* moonfall.mp4 */,
+				CDA1F7A22A34AB0A00B74EED /* morbius.mp4 */,
+				CDA1F7A32A34AB0B00B74EED /* sonic-the-hedgehog.mp4 */,
+				CDA1F7A12A34AB0A00B74EED /* top-gun-maverick.mp4 */,
+				CDA1F7A52A34AB0C00B74EED /* uncharted.mp4 */,
+			);
+			path = Videos;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDA1F7862A34A48600B74EED /* Cinema */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDA1F7952A34A48700B74EED /* Build configuration list for PBXNativeTarget "Cinema" */;
+			buildPhases = (
+				CDA1F7832A34A48600B74EED /* Sources */,
+				CDA1F7842A34A48600B74EED /* Frameworks */,
+				CDA1F7852A34A48600B74EED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cinema;
+			productName = Cinema;
+			productReference = CDA1F7872A34A48600B74EED /* Cinema.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDA1F77F2A34A48600B74EED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					CDA1F7862A34A48600B74EED = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = CDA1F7822A34A48600B74EED /* Build configuration list for PBXProject "Cinema" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CDA1F77E2A34A48600B74EED;
+			productRefGroup = CDA1F7882A34A48600B74EED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDA1F7862A34A48600B74EED /* Cinema */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDA1F7852A34A48600B74EED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDA1F7A92A34AB0D00B74EED /* top-gun-maverick.mp4 in Resources */,
+				CDA1F79C2A34AAB600B74EED /* movies.json in Resources */,
+				CDA1F7B02A34AB0D00B74EED /* minions-the-rise-of-gru.mp4 in Resources */,
+				CDA1F7AB2A34AB0D00B74EED /* sonic-the-hedgehog.mp4 in Resources */,
+				CDA1F7AD2A34AB0D00B74EED /* uncharted.mp4 in Resources */,
+				CDA1F79F2A34AAB600B74EED /* covers.json in Resources */,
+				CDA1F7AA2A34AB0D00B74EED /* morbius.mp4 in Resources */,
+				CDA1F7922A34A48700B74EED /* Preview Assets.xcassets in Resources */,
+				CDA1F7AF2A34AB0D00B74EED /* moonfall.mp4 in Resources */,
+				CDA1F79D2A34AAB600B74EED /* locations.json in Resources */,
+				CDA1F7AC2A34AB0D00B74EED /* jurassic-world-dominion.mp4 in Resources */,
+				CDA1F7AE2A34AB0D00B74EED /* men-in-black.mp4 in Resources */,
+				CDA1F78F2A34A48700B74EED /* Assets.xcassets in Resources */,
+				CDA1F79E2A34AAB600B74EED /* trailers.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDA1F7832A34A48600B74EED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDA1F78D2A34A48600B74EED /* ContentView.swift in Sources */,
+				CDA1F78B2A34A48600B74EED /* CinemaApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CDA1F7932A34A48700B74EED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CDA1F7942A34A48700B74EED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CDA1F7962A34A48700B74EED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Cinema/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iosDevMo.Cinema;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CDA1F7972A34A48700B74EED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Cinema/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iosDevMo.Cinema;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDA1F7822A34A48600B74EED /* Build configuration list for PBXProject "Cinema" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDA1F7932A34A48700B74EED /* Debug */,
+				CDA1F7942A34A48700B74EED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDA1F7952A34A48700B74EED /* Build configuration list for PBXNativeTarget "Cinema" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDA1F7962A34A48700B74EED /* Debug */,
+				CDA1F7972A34A48700B74EED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CDA1F77F2A34A48600B74EED /* Project object */;
+}
