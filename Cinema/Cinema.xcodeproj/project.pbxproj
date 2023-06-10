@@ -30,6 +30,8 @@
 		CDA1F7BD2A34C62100B74EED /* CoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA1F7BC2A34C62100B74EED /* CoverView.swift */; };
 		CDA1F7C22A34D15000B74EED /* CoverModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA1F7C12A34D15000B74EED /* CoverModel.swift */; };
 		CDA1F7C52A34D25D00B74EED /* Decoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA1F7C42A34D25D00B74EED /* Decoder.swift */; };
+		CDA1F7C72A34DBB200B74EED /* MovieCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA1F7C62A34DBB200B74EED /* MovieCellView.swift */; };
+		CDA1F7C92A34E03200B74EED /* MovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA1F7C82A34E03200B74EED /* MovieModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +59,8 @@
 		CDA1F7BC2A34C62100B74EED /* CoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverView.swift; sourceTree = "<group>"; };
 		CDA1F7C12A34D15000B74EED /* CoverModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverModel.swift; sourceTree = "<group>"; };
 		CDA1F7C42A34D25D00B74EED /* Decoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decoder.swift; sourceTree = "<group>"; };
+		CDA1F7C62A34DBB200B74EED /* MovieCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCellView.swift; sourceTree = "<group>"; };
+		CDA1F7C82A34E03200B74EED /* MovieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +156,7 @@
 			isa = PBXGroup;
 			children = (
 				CDA1F7BC2A34C62100B74EED /* CoverView.swift */,
+				CDA1F7C62A34DBB200B74EED /* MovieCellView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -160,6 +165,7 @@
 			isa = PBXGroup;
 			children = (
 				CDA1F7C12A34D15000B74EED /* CoverModel.swift */,
+				CDA1F7C82A34E03200B74EED /* MovieModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -254,9 +260,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDA1F7C92A34E03200B74EED /* MovieModel.swift in Sources */,
 				CDA1F78D2A34A48600B74EED /* MainView.swift in Sources */,
 				CDA1F7BD2A34C62100B74EED /* CoverView.swift in Sources */,
 				CDA1F78B2A34A48600B74EED /* CinemaApp.swift in Sources */,
+				CDA1F7C72A34DBB200B74EED /* MovieCellView.swift in Sources */,
 				CDA1F7C22A34D15000B74EED /* CoverModel.swift in Sources */,
 				CDA1F7C52A34D25D00B74EED /* Decoder.swift in Sources */,
 				CDA1F7B82A34C26500B74EED /* MapView.swift in Sources */,
