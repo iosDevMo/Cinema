@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CDA1F78B2A34A48600B74EED /* CinemaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA1F78A2A34A48600B74EED /* CinemaApp.swift */; };
-		CDA1F78D2A34A48600B74EED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA1F78C2A34A48600B74EED /* ContentView.swift */; };
+		CDA1F78D2A34A48600B74EED /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA1F78C2A34A48600B74EED /* MainView.swift */; };
 		CDA1F78F2A34A48700B74EED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDA1F78E2A34A48700B74EED /* Assets.xcassets */; };
 		CDA1F7922A34A48700B74EED /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDA1F7912A34A48700B74EED /* Preview Assets.xcassets */; };
 		CDA1F79C2A34AAB600B74EED /* movies.json in Resources */ = {isa = PBXBuildFile; fileRef = CDA1F7982A34AAB600B74EED /* movies.json */; };
@@ -23,12 +23,16 @@
 		CDA1F7AE2A34AB0D00B74EED /* men-in-black.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CDA1F7A62A34AB0C00B74EED /* men-in-black.mp4 */; };
 		CDA1F7AF2A34AB0D00B74EED /* moonfall.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CDA1F7A72A34AB0D00B74EED /* moonfall.mp4 */; };
 		CDA1F7B02A34AB0D00B74EED /* minions-the-rise-of-gru.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CDA1F7A82A34AB0D00B74EED /* minions-the-rise-of-gru.mp4 */; };
+		CDA1F7B42A34C1F000B74EED /* BrowserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA1F7B32A34C1F000B74EED /* BrowserView.swift */; };
+		CDA1F7B62A34C23800B74EED /* TrailerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA1F7B52A34C23800B74EED /* TrailerView.swift */; };
+		CDA1F7B82A34C26500B74EED /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA1F7B72A34C26500B74EED /* MapView.swift */; };
+		CDA1F7BA2A34C28D00B74EED /* GallaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA1F7B92A34C28D00B74EED /* GallaryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CDA1F7872A34A48600B74EED /* Cinema.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cinema.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDA1F78A2A34A48600B74EED /* CinemaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CinemaApp.swift; sourceTree = "<group>"; };
-		CDA1F78C2A34A48600B74EED /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CDA1F78C2A34A48600B74EED /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		CDA1F78E2A34A48700B74EED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDA1F7912A34A48700B74EED /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CDA1F7982A34AAB600B74EED /* movies.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = movies.json; sourceTree = "<group>"; };
@@ -43,6 +47,10 @@
 		CDA1F7A62A34AB0C00B74EED /* men-in-black.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "men-in-black.mp4"; sourceTree = "<group>"; };
 		CDA1F7A72A34AB0D00B74EED /* moonfall.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = moonfall.mp4; sourceTree = "<group>"; };
 		CDA1F7A82A34AB0D00B74EED /* minions-the-rise-of-gru.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "minions-the-rise-of-gru.mp4"; sourceTree = "<group>"; };
+		CDA1F7B32A34C1F000B74EED /* BrowserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowserView.swift; sourceTree = "<group>"; };
+		CDA1F7B52A34C23800B74EED /* TrailerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailerView.swift; sourceTree = "<group>"; };
+		CDA1F7B72A34C26500B74EED /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		CDA1F7B92A34C28D00B74EED /* GallaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GallaryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +85,7 @@
 			children = (
 				CDA1F7B12A34AB2400B74EED /* Videos */,
 				CDA1F7A02A34AACD00B74EED /* Data */,
-				CDA1F78A2A34A48600B74EED /* CinemaApp.swift */,
-				CDA1F78C2A34A48600B74EED /* ContentView.swift */,
+				CDA1F7B22A34C1C900B74EED /* Views */,
 				CDA1F78E2A34A48700B74EED /* Assets.xcassets */,
 				CDA1F7902A34A48700B74EED /* Preview Content */,
 			);
@@ -117,6 +124,19 @@
 				CDA1F7A52A34AB0C00B74EED /* uncharted.mp4 */,
 			);
 			path = Videos;
+			sourceTree = "<group>";
+		};
+		CDA1F7B22A34C1C900B74EED /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CDA1F78A2A34A48600B74EED /* CinemaApp.swift */,
+				CDA1F78C2A34A48600B74EED /* MainView.swift */,
+				CDA1F7B32A34C1F000B74EED /* BrowserView.swift */,
+				CDA1F7B52A34C23800B74EED /* TrailerView.swift */,
+				CDA1F7B72A34C26500B74EED /* MapView.swift */,
+				CDA1F7B92A34C28D00B74EED /* GallaryView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,8 +221,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDA1F78D2A34A48600B74EED /* ContentView.swift in Sources */,
+				CDA1F78D2A34A48600B74EED /* MainView.swift in Sources */,
 				CDA1F78B2A34A48600B74EED /* CinemaApp.swift in Sources */,
+				CDA1F7B82A34C26500B74EED /* MapView.swift in Sources */,
+				CDA1F7BA2A34C28D00B74EED /* GallaryView.swift in Sources */,
+				CDA1F7B42A34C1F000B74EED /* BrowserView.swift in Sources */,
+				CDA1F7B62A34C23800B74EED /* TrailerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
