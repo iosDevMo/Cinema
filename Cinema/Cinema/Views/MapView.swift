@@ -11,9 +11,15 @@ import MapKit
 struct MapView: View {
     //:MARK: - Properties
     @State private var region : MKCoordinateRegion = MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: 24.4539, longitude: 54.3773), span: MKCoordinateSpan(latitudeDelta: 5.0, longitudeDelta: 5.0))
+    var cinemaLocations : [CinemaLocation] = decode(file: "locations.json")
     //:MARK: - Body
     var body: some View {
-        Map(coordinateRegion: $region)
+        Map(coordinateRegion: $region, annotationItems: cinemaLocations) { item in
+            MapAnnotation(coordinate: item.location) {
+                CinemaAnnotation(location: item)
+            }
+        }
+        .ignoresSafeArea()
     }
 }
 
