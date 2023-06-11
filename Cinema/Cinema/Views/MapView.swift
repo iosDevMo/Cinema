@@ -6,10 +6,14 @@
 //
 
 import SwiftUI
+import MapKit
 
 struct MapView: View {
+    //:MARK: - Properties
+    @State private var region : MKCoordinateRegion = MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: 24.4539, longitude: 54.3773), span: MKCoordinateSpan(latitudeDelta: 5.0, longitudeDelta: 5.0))
+    //:MARK: - Body
     var body: some View {
-        Text("Map View")
+        Map(coordinateRegion: $region)
     }
 }
 
