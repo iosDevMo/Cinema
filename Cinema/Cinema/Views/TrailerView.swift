@@ -15,7 +15,11 @@ struct TrailerView: View {
         NavigationView {
             List {
                 ForEach(trailers) { trailer in
-                    TrailerCellView(trailer: trailer)
+                    NavigationLink {
+                        TrailerPlayerView(trailer: trailer.id)
+                    } label: {
+                        TrailerCellView(trailer: trailer)
+                    }
                 }
             }//: List
             .navigationTitle("Movie Trailers")
