@@ -32,6 +32,7 @@
 		CDA1F7C52A34D25D00B74EED /* Decoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA1F7C42A34D25D00B74EED /* Decoder.swift */; };
 		CDA1F7C72A34DBB200B74EED /* MovieCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA1F7C62A34DBB200B74EED /* MovieCellView.swift */; };
 		CDA1F7C92A34E03200B74EED /* MovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA1F7C82A34E03200B74EED /* MovieModel.swift */; };
+		CDA1F7CB2A35C82800B74EED /* MovieDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA1F7CA2A35C82800B74EED /* MovieDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -61,6 +62,7 @@
 		CDA1F7C42A34D25D00B74EED /* Decoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decoder.swift; sourceTree = "<group>"; };
 		CDA1F7C62A34DBB200B74EED /* MovieCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCellView.swift; sourceTree = "<group>"; };
 		CDA1F7C82A34E03200B74EED /* MovieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieModel.swift; sourceTree = "<group>"; };
+		CDA1F7CA2A35C82800B74EED /* MovieDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +150,7 @@
 				CDA1F7B52A34C23800B74EED /* TrailerView.swift */,
 				CDA1F7B72A34C26500B74EED /* MapView.swift */,
 				CDA1F7B92A34C28D00B74EED /* GallaryView.swift */,
+				CDA1F7CA2A35C82800B74EED /* MovieDetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -266,6 +269,7 @@
 				CDA1F78B2A34A48600B74EED /* CinemaApp.swift in Sources */,
 				CDA1F7C72A34DBB200B74EED /* MovieCellView.swift in Sources */,
 				CDA1F7C22A34D15000B74EED /* CoverModel.swift in Sources */,
+				CDA1F7CB2A35C82800B74EED /* MovieDetailView.swift in Sources */,
 				CDA1F7C52A34D25D00B74EED /* Decoder.swift in Sources */,
 				CDA1F7B82A34C26500B74EED /* MapView.swift in Sources */,
 				CDA1F7BA2A34C28D00B74EED /* GallaryView.swift in Sources */,

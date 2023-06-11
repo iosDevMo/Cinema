@@ -15,7 +15,7 @@ struct MovieCellView: View {
         HStack(alignment: .center, spacing: 16) {
             Image(movie.image)
                 .resizable()
-                .scaledToFit()
+                .scaledToFill()
                 .frame(width: 90, height: 90, alignment: .center)
                 .clipShape(RoundedRectangle(cornerRadius: 8))
             VStack(alignment: .leading, spacing: 8){

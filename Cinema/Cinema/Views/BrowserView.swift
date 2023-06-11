@@ -18,7 +18,13 @@ struct BrowserView: View {
                     CoverView()
                         .frame(height: 235)
                     ForEach(movies) { item in
-                        MovieCellView(movie: item)
+                        NavigationLink {
+                            MovieDetailView(movie: item)
+                        } label: {
+                            MovieCellView(movie: item)
+                        }
+
+                        
                     }
                     HStack {
                         Spacer()
