@@ -34,6 +34,7 @@ struct MainView: View {
                     Text("Gallary")
                 }
         }//: TabView
+        .preferredColorScheme(.dark)
     }
 }
 
